@@ -1,8 +1,9 @@
 .avatar-large[style*="a_"] + .comment .message.first .body .username-wrapper:after {
 	content: 'Nitro';
-	color: white;
+	color: #fc964b;
 	margin-left: 5px;
-	background: #fc964b;
+	background: transparent;
+	border: 1px #fc964b solid;
     line-height: 16px;
     text-transform: uppercase;
     vertical-align: bottom;
@@ -16,9 +17,10 @@
 
 .member.member-status > .avatar-small[style*="a_"] + .member-inner .member-username:after {
 	content: 'Nitro';
-	color: white;
+	color: #fc964b;
 	margin-left: 5px;
-	background: #fc964b;
+	background: transparent;
+	border: 1px #fc964b solid;
     line-height: 15px;
     height: 14px;
     text-transform: uppercase;
